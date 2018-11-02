@@ -1,0 +1,95 @@
+<view class="w clearfix">
+    <view class="w-now">
+          <view class="w-now-pic">
+              <image src="./cond-icon-heweather/100.png"></image>
+          </view>
+          <view class="w-now-weather clearfix">
+                <view  class="w-now-location clearfix"><image src="./images/location.png"></image><text>吴中区</text></view>
+                <text class="w-now-wd clearfix">18 °C</text>
+                <text class="w-now-lh clearfix">11° / 22°</text>
+                <text class="w-now-notice clearfix">天气晴朗，阔以出门溜达等</text>
+          </view>
+          <!-- 空气质量 等-->
+          <view class="w-now-aqi"></view>
+          <!-- 日出日落时间 -->
+          <view class="w-now-light">
+                  <view class="lh">日出：09：00   日落：17：30</view>
+                  <view class="light-ul">
+                          <view class="light-li">
+                                <text class="h3">东南风</text>
+                                <text class="h4">3级</text>
+                          </view>
+                  </view> 
+          </view>
+          <!-- 生活指数出行状态 -->
+          <view class="w-now-life">
+                  <view class="w-n-l-item item-car">
+                        <image></image>
+                        <text>无需防晒</text>
+                  </view>
+          </view>
+          <!--未来多小时预报-->
+          <view class="w-future-hour">
+          </view>
+          <!-- 多日天气 -->
+          <view class="w-more">
+                <view class="w-m-ul">
+                        <view class="w-m-ul-li">
+                              <text class="li-w">今天.阵雨转阴</text>
+                              <text class="li-air">良</text>
+                              <view class="li-wd">
+                                    <image></image>
+                                    <text>23°C  /  17 °C</text>
+                              </view>
+                        </view>
+                </view>
+                <text>更多天气</text>
+          </view>
+          <view class="set-img">生成图片</view>
+    </view>
+    <!--多天天气-->
+    <view class="w-moreWeather">
+          <view class="w-m-list">
+                <view class="w-m-list-date">10月25日 星期四</view>
+                <view class="w-m-list-wd">6° / 15 °  多云</view>
+                <view class="w-m-list-qt">东北风4级 空气质量 优</view>
+                <image title="多云"></image>
+          </view>
+    </view>
+    <!--更多空气质量等-->
+    <view class="w-moreAqi">
+        <text>空气指数</text>
+        <view class="w-air-div w-aqi-ul">
+             <view class="list-li">
+                  <text class="list-li-name">空气质量</text>
+                  <text class="list-li-data"> 中度污染</text>
+             </view>
+        </view>
+        <text>风</text>
+        <view class="w-air-div w-aqi-ul">
+             <view class="list-li">
+                  <text class="list-li-name">空气质量</text>
+                  <text class="list-li-data"> 中度污染</text>
+             </view>
+        </view>
+    </view>
+    <!--选择天气区域-->
+    <view class="w-selectArea">
+          <view class="w-s-div">
+              <input type="text" placeholder='请输入要查询的地址'></input>
+          </view>
+          <view class="hot-area">
+                  <text>热门城市：</text>
+                  <view class="hot-area-list">
+                        <text class="list-btn in-location">当前位置</text>
+                        <text class="list-btn" area="上海">上海市</text>
+                        <text class="list-btn" area="北京">北京市</text>
+                        <text class="list-btn" area="南京">南京市</text>
+                        <text class="list-btn" area="广州">广州市</text>
+                        <text class="list-btn" area="西安">西安市</text>
+                        <text class="list-btn" area="哈尔滨">哈尔滨市</text>
+                        <text class="list-btn" area="武汉">武汉市</text>
+                  </view>
+          </view>
+    </view>
+</view>

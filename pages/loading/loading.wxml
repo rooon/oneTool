@@ -1,0 +1,3 @@
+<view class="loading clearfix">
+   <image class="icon loadingimg" src="../images/loading.gif" background-size="cover"></image>
+</view>

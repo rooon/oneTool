@@ -1,0 +1,84 @@
+/* .clearfix{
+  *zoom: 1;
+} */
+.clearfix:before, 
+.clearfix:after{
+  content:"";
+  display:table;
+  height:0;
+  visibility:hidden;
+  clear:both;
+}
+.w{
+  width:90%;
+  height:100%;
+  margin:0 auto;
+  /* background: #eee; */
+  color:#3C5F81;
+}
+.w .w-now{
+  width: 100%;
+  height: auto;
+}
+.w-now .w-now-pic{
+  position: relative;
+  width: 100%;
+  height:300rpx;
+}
+.w-now-pic image{
+  position: absolute;
+  top:20rpx;
+  right:40rpx;
+  width: 100px;
+  height: 100px;
+}
+.w-now .w-now-weather{
+  width: 100%;
+  max-height: 400rpx;
+}
+.w-now-weather text{
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height:60rpx;
+  line-height:60rpx;
+  padding-left:30rpx;
+  margin-bottom: 30rpx;
+}
+.w-now-weather .w-now-location{
+  padding-left:30rpx;
+  margin-bottom: 30rpx;
+}
+.w-now-location image{
+  position:relative;
+  top:5rpx;
+  float:left;
+  width:50rpx;
+  height: 50rpx;
+}
+.w-now-weather .w-now-wd{
+  font-size: 85rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.w-now-location text{
+  width:80%;
+  margin: 0;
+  padding-left:15rpx;
+}
+.w-now .w-now-lh,
+.w-now .w-now-notice{
+  padding-left:40rpx;
+}
+.w-now-notice{
+ font-size: 32rpx;
+}
+
+
+
+
+.w-moreWeather,
+.w-moreAqi,
+.w-selectArea{
+  display: none;
+}
