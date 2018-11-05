@@ -13,8 +13,16 @@
           <view class="w-now-aqi"></view>
           <!-- 日出日落时间 -->
           <view class="w-now-light">
-                  <view class="lh">日出：09：00   日落：17：30</view>
+                  <view class="lh"><text>日出：09:00  </text><text> 日落：17:30</text></view>
                   <view class="light-ul">
+                          <view class="light-li">
+                                <text class="h3">东南风</text>
+                                <text class="h4">3级</text>
+                          </view>
+                          <view class="light-li">
+                                <text class="h3">东南风</text>
+                                <text class="h4">3级</text>
+                          </view>
                           <view class="light-li">
                                 <text class="h3">东南风</text>
                                 <text class="h4">3级</text>
