@@ -72,13 +72,13 @@
  font-size: 32rpx;
 }
 .w-now-light{
-  border:1rpx solid #3C5F81;
+  border:1rpx solid rgba(60,95,129, 0.5);
   padding:30rpx;
 }
 .w-now-light .lh{
   padding-bottom: 30rpx;
   margin-bottom:30rpx;
-  border-bottom: 1rpx solid #3C5F81;
+  border-bottom: 1rpx solid rgba(60,95,129, 0.3);
 }
 .w-now-light .lh text{
   display: inline-block;
